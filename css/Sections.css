@@ -1,0 +1,53 @@
+.inputSect{
+    min-height: 30px;
+    max-height: 30px;
+    max-width: 250px;
+    min-width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Candara;
+}
+
+.SectionsCC
+{
+    background-color: rgb(235, 235, 235);
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 300px;
+    min-height: 300px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+}
+
+.SectionsCC
+{
+    font-family: Candara;
+}
+
+.SectColor
+{
+    
+    border-radius: 5px;
+    background-color: white;
+}
+
+.BtnSections{
+    background-color: #db0000;
+    color: white;
+    min-height: 40px;
+    max-height: 40px;
+    max-width: 70px;
+    min-width: 70px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.BtnSections:hover{
+    background-color: #ca4949;
+}
+
+.ContenidoSect{
+    max-height: 430px;
+    min-height: 430px;
+}

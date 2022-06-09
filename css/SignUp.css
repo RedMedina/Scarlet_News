@@ -1,0 +1,92 @@
+.cabeceraRegUs{
+    background-color: #db0000;
+    font-family: Candara;
+    color: white;
+    height: 40px;
+    width: 650px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cabeceraRegUs h2{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.contenidoRegUS{
+    background-color: rgb(231, 231, 231);
+    height: 450px;
+    width: 650px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media (max-width:400px)
+{
+    .contenidoRegUS
+    {
+        position: relative;
+        left: 50px;
+    }
+    .cabeceraRegUs
+    {
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (min-width:970px)
+{
+    .contenidoRegUS
+    {
+        position: relative;
+        left: 450px;
+    }
+    .cabeceraRegUs
+    {
+        position: relative;
+        left: 450px;
+    }
+}
+
+.inputRegUS{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    height: 35px;
+    width: 400px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.imgUSUARIORegUs{
+    border-radius: 50%;
+    position: relative;
+    left: 490px;
+    bottom: 290px;
+    height: 130px;
+    width: 130px;
+}
+
+.enviarBtnRegUs{
+    height: 35px;
+    width: 80px;
+    background-color: #db0000;
+    border: 0px;
+    color: white;
+    font-family: Candara;
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+    top: 15px;
+    border-radius: 25px;
+}
+
+.enviarBtnRegUs:hover{
+    background-color: #800000;
+}
+
+.contenidoRegUs{
+    min-height: 550px;
+}

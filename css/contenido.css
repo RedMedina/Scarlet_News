@@ -1,0 +1,50 @@
+.noticia .tNoti, .pnot{
+    font-family: Candara;
+}
+
+.noticia{
+    position: relative;
+    left: 10%;
+    width: 600px;
+}
+
+@media (max-width:400px){
+    .noticia .tNoti, .pnot
+    {
+        position: relative;
+        top: -20px
+    }
+    .horaNot{
+        position: relative;
+        left: 500px;
+    }
+}
+
+@media (min-width:970px){
+    .noticia .tNoti, .pnot
+    {
+        position: relative;
+        bottom: 365px;
+        left: 102%;
+    }
+    .horaNot{
+        position: relative;
+        bottom: 130px;
+        left: 1100px;
+    }
+    
+}
+
+.noticia a{
+    text-decoration:none;
+}
+
+.noticia a:hover{
+    text-decoration: underline;
+}
+
+.noticia img
+{
+    width: 600px;
+    height: 337px;
+}

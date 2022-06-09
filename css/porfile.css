@@ -1,0 +1,88 @@
+.CFBA
+{
+    position: relative;
+    left: 155px;
+    bottom: 70px
+}
+
+.CambiarCFB
+{
+    height: 500px;    
+}
+
+.PerfilContent{
+    background-color: rgb(235, 235, 235);
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 630px;
+    max-height: 630px;
+    border-radius: 5%;
+}
+
+.ImgPF{
+    border-radius: 50%;
+    height: 190px;
+    height: 190px;
+    border: 5px white solid;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ImgPF:hover{
+    opacity: 0.3;
+}
+
+.InputPF{
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.BtnPF{
+    background-color: #db0000;
+    color: white;
+    min-height: 40px;
+    max-height: 40px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.BtnPF:hover{
+    background-color: #ca4949;
+}
+
+.BtnPFX{
+    background-color: #db0000;
+    color: white;
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    border: 0px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 620px;
+    left:270px;
+}
+
+.BtnPFX:hover{
+    background-color: #ca4949;
+}
+
+.contenidoPerfil{
+    max-height: 670px;
+    min-height: 670px;
+}
+
+.btn2PF{
+    border: 0px;
+    border-radius: 50%;
+}
+
+.imgP
+{
+    display: none;
+}

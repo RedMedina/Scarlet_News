@@ -1,0 +1,35 @@
+.DivLogin
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+.linkFB
+{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.linkFB:hover
+{
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+
+.LoginFB
+{
+    color:rgb(0, 102, 255);
+    text-decoration: none;
+    position: relative;
+    top: 23px;
+    font-family: Candara;
+}
+
+.LoginFB:hover
+{
+    color: white;
+}

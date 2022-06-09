@@ -1,0 +1,109 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    font-family: Candara;
+}
+
+/*header--------------------------------------------*/
+.header{
+  margin: 0px;
+  padding: 0px;
+  background-color: #be1010;
+}
+
+/*footer*/
+footer{
+  font-family: Candara;
+  color:#ddd;
+  background-color: #be1010;
+  min-height: 60px;
+  max-height: 60px;
+}
+
+footer p{
+  position: relative;
+  top: 20px;
+}
+
+/*Barra de busqueda---------------------------------*/
+.busq{
+    border-radius:60px;
+    border: 0px;
+    max-height: 30px;
+    min-height: 30px;
+    min-width: 200px;
+    max-width: 200px;
+    font-family: Candara;
+}
+
+.busqBtn{
+  border-radius:60px;
+  border: 0px;
+  max-height: 30px;
+  min-height: 30px;
+}
+
+.busqBtn:hover{
+  opacity: 0.8;
+}
+
+@media (max-width:400px)
+{
+  .busq
+  {
+    position: relative;
+    left: -3px;
+    top: 10px;
+  }
+  .busqBtn
+  {
+    position: relative;
+    left: -3px;
+    top: 10px;
+  }
+}
+
+@media (min-width:970px)
+{
+  .busq
+  {
+    position: relative;
+    top: 7px;
+    left: 45%;
+  }
+  .busqBtn
+  {
+    position: relative;
+    top: 7px;
+    left: 45%;
+  }
+}
+
+/*MENU DE DASHBOARD--------------------------------*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #db0000;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Candara;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover, a.active:hover {
+    background-color: #ddd;
+    color: black;
+  }

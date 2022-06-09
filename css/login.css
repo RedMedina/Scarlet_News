@@ -1,0 +1,126 @@
+.CabeceraInicioS{
+    background-color: #db0000;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 40px;
+    max-height: 40px;
+    color: white;
+    font-family: Candara;
+}
+
+.CabeceraInicioS h2{
+    position: relative;
+    top: 5px;
+    right: 125px;
+}
+
+.ContenidoInicioS{
+    background-color: rgb(230, 230, 230);
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 160px;
+    max-height: 160px;
+}
+
+.usSend{
+    background-color: #db0000;
+    min-width: 40px;
+    max-width: 40px;
+    max-height: 35px;
+    min-height: 35px;
+    position: relative;
+    right: 140px;
+    top: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.usInS{
+    position: relative;
+    right: 42px;
+    bottom: 15px;
+    max-height: 33px;
+    min-height: 33px;
+    font-family: Candara;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.usInS::placeholder{
+    font-family: Candara;
+}
+
+.passSend{
+    background-color: #db0000;
+    min-width: 40px;
+    max-width: 40px;
+    max-height: 35px;
+    min-height: 35px;
+    position: relative;
+    right: 140px;
+    top: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.pasInS{
+    position: relative;
+    right: 15px;
+    bottom: 21px;
+    max-height: 33px;
+    min-height: 33px;
+    font-family: Candara;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pasInS::placeholder{
+    font-family: Candara;
+}
+
+.btnLogin{
+    border: 5px solid rgb(230, 230, 230);;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+    border-radius: 35px;
+    background-color: #db0000;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+}
+
+.btnLogin:hover{
+    background-color: #d65a5a;
+}
+
+.InicioSesionContenido{
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.regUsIn{
+    position: relative;
+    top: -23px;
+    left: 150px;
+}
+
+.LoginFBBtn
+{
+    background-color:rgb(3, 84, 235);
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.LoginFBBtn div
+{
+    position: relative;
+    bottom: 8px;
+    left: 12px;
+}

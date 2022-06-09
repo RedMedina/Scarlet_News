@@ -1,0 +1,80 @@
+.ContenidoLikes
+{
+    min-height: 400px;
+}
+
+.ContenidoRLikes
+{
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    height: 310px;
+    border-radius: 15px;
+}
+
+.SeccionN, .FechaInRL, .FechaFinRL
+{
+    width: 200px;
+    height: 30px;
+    font-family: Candara;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.GenerarRep
+{
+    border: 0px;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    font-family: Candara;
+}
+
+.GenerarRep:hover
+{
+    background-color: rgb(213, 69, 97);
+}
+
+.TiRep
+{
+    position: relative;
+    top: 5px;
+}
+
+.SeccionR
+{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-family: Candara;
+    border-radius: 10px;
+}
+
+.SeccionR p
+{
+    position: relative;
+    top: 10px;
+}
+
+.ReporteNewL
+{
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    width: 400px;
+}
+
+.ReporteNewL h3
+{
+    position: relative;
+    top: 5px;
+}
+
+.SeccionRCont
+{
+    color: white;
+    font-family: Candara;
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+}

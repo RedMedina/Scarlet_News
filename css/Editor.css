@@ -1,0 +1,99 @@
+.ContenidoEditor{
+    min-height: 430px;
+}
+
+.EditorCuentas img
+{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.StatusUsActive
+{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color:chartreuse;
+    position: relative;
+    bottom: 33px;
+    left: 45px;
+}
+
+.StatusUsInactivde
+{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color:brown;
+    position: relative;
+    bottom: 33px;
+    left: 45px;
+}
+
+.EditorCuentas a
+{
+    text-decoration-line: none;
+}
+
+.EditarSecciones
+{
+    border-radius: 25px;
+    width: 300px;
+    height: 130px;
+    color: white;
+    font-family: Candara;
+}
+
+.EditarSecciones h3
+{
+    position: relative;
+    top: 5px;
+}
+
+.btnEditSec
+{
+    border-radius: 15px;
+    background-color: rgb(63, 0, 199);
+    border: 0px;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.btnDeleteSec
+{
+    border-radius: 15px;
+    background-color: rgb(255, 0, 68);
+    border: 0px;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.btnNuevoSec
+{
+    border-radius: 15px;
+    background-color: rgb(205, 58, 0);
+    border: 0px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 40%;
+}
+
+.btnNuevoSec:hover
+{
+    background-color: rgb(196, 88, 45);
+}
+
+.btnEditSec:hover
+{
+    background-color:rgb(81, 0, 255);
+}
+
+.btnDeleteSec:hover
+{
+    background-color: rgb(255, 75, 123);
+}

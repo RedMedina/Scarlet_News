@@ -1,0 +1,42 @@
+.inputBusqAv{
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 30px;
+    max-height: 30px;
+    font-family: Candara;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.BusqAvC{
+    background-color: rgb(235, 235, 235);
+    max-width: 550px;
+    min-width: 550px;
+    min-height: 430px;
+    max-height: 430px;
+    border-radius: 25px;
+}
+
+.BusqAvC p, h3{
+    font-family: Candara;
+}
+
+.BtnBusqAv{
+    background-color: #db0000;
+    color: white;
+    min-height: 40px;
+    max-height: 40px;
+    max-width: 70px;
+    min-width: 70px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.BtnBusqAv:hover{
+    background-color: #7a0000;
+}
+
+.ContenidoBusqAv{
+    max-height: 500px;
+    min-height: 500px;
+}

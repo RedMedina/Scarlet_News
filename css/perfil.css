@@ -1,0 +1,31 @@
+.btnLoginUs{
+    background-color: #db0000;
+    border: 0px;
+    border-radius: 15%;
+    width: 60px;
+    height: 40px;
+    
+}
+
+.btnLoginUs:hover{
+    background-color: #8b0000;
+}
+
+@media (max-width:400px)
+{
+    .btnLoginUs
+    {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media (min-width:970px)
+{
+    .btnLoginUs
+    {
+        position: relative;
+        left: 1450px;
+        top: 10px;
+    }
+}
